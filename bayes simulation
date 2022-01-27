@@ -1,0 +1,5 @@
+simulate_reality
+simulation_match_reality
+count(simulation_match_reality | p=0.2, simulations=1000)
+posterior_distribution = normalize([count_simulation_match_reality(p) for p=.1, .2, ...])
+
