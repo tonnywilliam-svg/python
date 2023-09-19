@@ -26,9 +26,9 @@ class Api:
             ms=re.findall(self.pattern,country_html)
             if len(ms)>1:
                 for (sub_item_name,amt) in ms:
-                    self.df.loc[len(self.df.index)] = [country, self.item, sub_item_name, amt]
+                    self.df.loc[len(self.df)] = [country, self.item, sub_item_name, amt]
             else:
-                self.df.loc[len(self.df.index)] = [country, self.item, '', ms[0]]
+                self.df.loc[len(self.df)] = [country, self.item, '', ms[0]]
 
         self._window.destroy()    
 
