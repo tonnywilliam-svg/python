@@ -1,4 +1,4 @@
-country,item,sub-item,amount
+country,item,sub_item,amount
 china,age-structure,0-14 years:," 16.48% (male 124,166,174/female 108,729,429)"
 china,age-structure,15-64 years:," 69.4% (male 504,637,819/female 476,146,909)"
 china,age-structure,65 years and over:," 14.11% (2023 est.) (male 92,426,805/female 107,035,710)"
