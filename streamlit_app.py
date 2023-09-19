@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(page_title='hx streamlit',layout='wide')
+
 countries=['china', 'russia', 'korea-south', 'united-states']
 options = st.multiselect(
     'Pick your countries',
