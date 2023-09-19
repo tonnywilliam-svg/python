@@ -44,8 +44,8 @@ class Api:
         return self.df
 
 if __name__ == '__main__':
-    api=Api(['china','korea-south','russia','united-states'])
-    result=api.get_info_about_countries()
+    api=Api()
+    result=api.get_info_about_countries(('china','korea-south','russia','united-states','japan'))
     result.to_csv('countries.csv')
 
 
