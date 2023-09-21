@@ -2,24 +2,33 @@ country,item,sub_item,amount
 china,age-structure,0-14 years:," 16.48% (male 124,166,174/female 108,729,429)"
 china,age-structure,15-64 years:," 69.4% (male 504,637,819/female 476,146,909)"
 china,age-structure,65 years and over:," 14.11% (2023 est.) (male 92,426,805/female 107,035,710)"
+united-states,age-structure,0-14 years:," 18.15% (male 31,509,186/female 30,154,408)"
+united-states,age-structure,15-64 years:," 63.72% (male 108,346,275/female 108,100,830)"
+united-states,age-structure,65 years and over:," 18.12% (2023 est.) (male 27,589,149/female 33,965,270)"
 korea-south,age-structure,0-14 years:," 11.53% (male 3,072,352/female 2,916,984)"
 korea-south,age-structure,15-64 years:," 70.1% (male 18,788,714/female 17,639,714)"
 korea-south,age-structure,65 years and over:," 18.38% (2023 est.) (male 4,196,789/female 5,352,395)"
 russia,age-structure,0-14 years:," 16.86% (male 12,270,830/female 11,614,990)"
 russia,age-structure,15-64 years:," 65.99% (male 45,292,734/female 48,217,551)"
 russia,age-structure,65 years and over:," 17.15% (2023 est.) (male 8,008,126/female 16,294,692)"
-united-states,age-structure,0-14 years:," 18.15% (male 31,509,186/female 30,154,408)"
-united-states,age-structure,15-64 years:," 63.72% (male 108,346,275/female 108,100,830)"
-united-states,age-structure,65 years and over:," 18.12% (2023 est.) (male 27,589,149/female 33,965,270)"
 japan,age-structure,0-14 years:," 12.29% (male 7,835,474/female 7,370,449)"
 japan,age-structure,15-64 years:," 58.49% (male 36,378,186/female 35,981,176)"
 japan,age-structure,65 years and over:," 29.22% (2023 est.) (male 15,909,031/female 20,244,922)"
+canada,age-structure,0-14 years:," 15.65% (male 3,097,585/female 2,930,056)"
+canada,age-structure,15-64 years:," 63.85% (male 12,367,172/female 12,224,077)"
+canada,age-structure,65 years and over:," 20.5% (2023 est.) (male 3,630,580/female 4,267,266)"
 china,gdp-composition-by-end-use,household consumption:, 39.1% (2017 est.)
 china,gdp-composition-by-end-use,government consumption:, 14.5% (2017 est.)
 china,gdp-composition-by-end-use,investment in fixed capital:, 42.7% (2017 est.)
 china,gdp-composition-by-end-use,investment in inventories:, 1.7% (2017 est.)
 china,gdp-composition-by-end-use,exports of goods and services:, 20.4% (2017 est.)
 china,gdp-composition-by-end-use,imports of goods and services:, -18.4% (2017 est.)
+united-states,gdp-composition-by-end-use,household consumption:, 68.4% (2017 est.)
+united-states,gdp-composition-by-end-use,government consumption:, 17.3% (2017 est.)
+united-states,gdp-composition-by-end-use,investment in fixed capital:, 17.2% (2017 est.)
+united-states,gdp-composition-by-end-use,investment in inventories:, 0.1% (2017 est.)
+united-states,gdp-composition-by-end-use,exports of goods and services:, 12.1% (2017 est.)
+united-states,gdp-composition-by-end-use,imports of goods and services:, -15% (2017 est.)
 korea-south,gdp-composition-by-end-use,household consumption:, 48.1% (2017 est.)
 korea-south,gdp-composition-by-end-use,government consumption:, 15.3% (2017 est.)
 korea-south,gdp-composition-by-end-use,investment in fixed capital:, 31.1% (2017 est.)
@@ -32,20 +41,21 @@ russia,gdp-composition-by-end-use,investment in fixed capital:, 21.6% (2017 est.
 russia,gdp-composition-by-end-use,investment in inventories:, 2.3% (2017 est.)
 russia,gdp-composition-by-end-use,exports of goods and services:, 26.2% (2017 est.)
 russia,gdp-composition-by-end-use,imports of goods and services:, -20.6% (2017 est.)
-united-states,gdp-composition-by-end-use,household consumption:, 68.4% (2017 est.)
-united-states,gdp-composition-by-end-use,government consumption:, 17.3% (2017 est.)
-united-states,gdp-composition-by-end-use,investment in fixed capital:, 17.2% (2017 est.)
-united-states,gdp-composition-by-end-use,investment in inventories:, 0.1% (2017 est.)
-united-states,gdp-composition-by-end-use,exports of goods and services:, 12.1% (2017 est.)
-united-states,gdp-composition-by-end-use,imports of goods and services:, -15% (2017 est.)
 japan,gdp-composition-by-end-use,household consumption:, 55.5% (2017 est.)
 japan,gdp-composition-by-end-use,government consumption:, 19.6% (2017 est.)
 japan,gdp-composition-by-end-use,investment in fixed capital:, 24% (2017 est.)
 japan,gdp-composition-by-end-use,investment in inventories:, 0% (2017 est.)
 japan,gdp-composition-by-end-use,exports of goods and services:, 17.7% (2017 est.)
 japan,gdp-composition-by-end-use,imports of goods and services:, -16.8% (2017 est.)
+canada,gdp-composition-by-end-use,household consumption:, 57.8% (2017 est.)
+canada,gdp-composition-by-end-use,government consumption:, 20.8% (2017 est.)
+canada,gdp-composition-by-end-use,investment in fixed capital:, 23% (2017 est.)
+canada,gdp-composition-by-end-use,investment in inventories:, 0.7% (2017 est.)
+canada,gdp-composition-by-end-use,exports of goods and services:, 30.9% (2017 est.)
+canada,gdp-composition-by-end-use,imports of goods and services:, -33.2% (2017 est.)
 china,gdp-official-exchange-rate,,"$14,327,359,000,000 (2019 est.)"
+united-states,gdp-official-exchange-rate,,"$21,433,228,000,000 (2019 est.)"
 korea-south,gdp-official-exchange-rate,,"$1,646,604,000,000 (2019 est.)"
 russia,gdp-official-exchange-rate,,"$1,702,361,000,000 (2019 est.)"
-united-states,gdp-official-exchange-rate,,"$21,433,228,000,000 (2019 est.)"
 japan,gdp-official-exchange-rate,,"$5,078,679,000,000 (2019 est.)"
+canada,gdp-official-exchange-rate,,"$1,741,865,000,000 (2019 est.)"
