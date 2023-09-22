@@ -17,6 +17,9 @@ japan,age-structure,65 years and over:," 29.22% (2023 est.) (male 15,909,031/fem
 canada,age-structure,0-14 years:," 15.65% (male 3,097,585/female 2,930,056)"
 canada,age-structure,15-64 years:," 63.85% (male 12,367,172/female 12,224,077)"
 canada,age-structure,65 years and over:," 20.5% (2023 est.) (male 3,630,580/female 4,267,266)"
+saudi-arabia,age-structure,0-14 years:," 23.45% (male 4,298,399/female 4,130,547)"
+saudi-arabia,age-structure,15-64 years:," 72.36% (male 15,251,742/female 10,752,649)"
+saudi-arabia,age-structure,65 years and over:," 4.19% (2023 est.) (male 799,270/female 707,199)"
 china,gdp-composition-by-end-use,household consumption:, 39.1% (2017 est.)
 china,gdp-composition-by-end-use,government consumption:, 14.5% (2017 est.)
 china,gdp-composition-by-end-use,investment in fixed capital:, 42.7% (2017 est.)
@@ -53,9 +56,16 @@ canada,gdp-composition-by-end-use,investment in fixed capital:, 23% (2017 est.)
 canada,gdp-composition-by-end-use,investment in inventories:, 0.7% (2017 est.)
 canada,gdp-composition-by-end-use,exports of goods and services:, 30.9% (2017 est.)
 canada,gdp-composition-by-end-use,imports of goods and services:, -33.2% (2017 est.)
-china,gdp-official-exchange-rate,,"$14,327,359,000,000 (2019 est.)"
-united-states,gdp-official-exchange-rate,,"$21,433,228,000,000 (2019 est.)"
-korea-south,gdp-official-exchange-rate,,"$1,646,604,000,000 (2019 est.)"
-russia,gdp-official-exchange-rate,,"$1,702,361,000,000 (2019 est.)"
-japan,gdp-official-exchange-rate,,"$5,078,679,000,000 (2019 est.)"
-canada,gdp-official-exchange-rate,,"$1,741,865,000,000 (2019 est.)"
+saudi-arabia,gdp-composition-by-end-use,household consumption:, 41.3% (2017 est.)
+saudi-arabia,gdp-composition-by-end-use,government consumption:, 24.5% (2017 est.)
+saudi-arabia,gdp-composition-by-end-use,investment in fixed capital:, 23.2% (2017 est.)
+saudi-arabia,gdp-composition-by-end-use,investment in inventories:, 4.7% (2017 est.)
+saudi-arabia,gdp-composition-by-end-use,exports of goods and services:, 34.8% (2017 est.)
+saudi-arabia,gdp-composition-by-end-use,imports of goods and services:, -28.6% (2017 est.)
+china,gdp-official-exchange-rate,---,"$14,327,359,000,000 (2019 est.)"
+united-states,gdp-official-exchange-rate,---,"$21,433,228,000,000 (2019 est.)"
+korea-south,gdp-official-exchange-rate,---,"$1,646,604,000,000 (2019 est.)"
+russia,gdp-official-exchange-rate,---,"$1,702,361,000,000 (2019 est.)"
+japan,gdp-official-exchange-rate,---,"$5,078,679,000,000 (2019 est.)"
+canada,gdp-official-exchange-rate,---,"$1,741,865,000,000 (2019 est.)"
+saudi-arabia,gdp-official-exchange-rate,---,$792.849 billion (2019 est.)
