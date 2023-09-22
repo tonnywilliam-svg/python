@@ -2,19 +2,19 @@ import webview, re
 import pandas as pd
 
 class Api:
-    def __init__(self,countries):
-        self.countries = countries
+    def __init__(self):
+        self.countries = None
         self._window = None
         self.item=None
         self.pattern=None
-        self.df=pd.DataFrame(None,columns=['country','item','sub-item','amount'])
+        self.df=pd.DataFrame(None,columns=['country','item','sub_item','amount'])
         self.item_pattern=[
             ['age-structure',  '<strong>(.+?)</strong>(.+?)(?:<br>|$)'], 
             ['gdp-composition-by-end-use', '<strong>(.+?)</strong>(.+?)(?:<br>|$)'], 
             ['gdp-official-exchange-rate', '</h3>(.+?)(?:<br>|$)']
         ]
 
-    def evaluate_js(self):
+    def query_DOM(self):
         for country in self.countries:
             js_script="""
             const country_div = document.querySelector('[href="/the-world-factbook/countries/xxxx/"]').closest('div')
@@ -32,20 +32,16 @@ class Api:
 
         self._window.destroy()    
 
-    def get_info_about_countries(self):
+    def get_info_about_countries(self, countries):
         for (item, pattern) in self.item_pattern:
             self.item=item
             self.pattern=pattern
-
+            self.countries=countries
             url = f"https://www.cia.gov/the-world-factbook/field/{item}"
             self._window = webview.create_window('Data Source',url)    
-            webview.start(self.evaluate_js)
+            webview.start(self.query_DOM)
         
-        return self.df
-
 if __name__ == '__main__':
     api=Api()
-    result=api.get_info_about_countries(('china','korea-south','russia','united-states','japan'))
-    result.to_csv('countries.csv')
-
-
+    api.get_info_about_countries(('china','united-states','korea-south','russia','japan','canada'))
+    api.df.to_csv('countries.csv',index=False)
