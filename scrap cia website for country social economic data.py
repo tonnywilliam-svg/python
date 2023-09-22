@@ -2,17 +2,16 @@ import webview, re
 import pandas as pd
 
 class Api:
-    def __init__(self):
-        self.countries = None
-        self._window = None
-        self.item=None
-        self.pattern=None
-        self.df=pd.DataFrame(None,columns=['country','item','sub_item','amount'])
-        self.item_pattern=[
-            ['age-structure',  '<strong>(.+?)</strong>(.+?)(?:<br>|$)'], 
-            ['gdp-composition-by-end-use', '<strong>(.+?)</strong>(.+?)(?:<br>|$)'], 
-            ['gdp-official-exchange-rate', '</h3>(.+?)(?:<br>|$)']
-        ]
+    countries = None
+    _window = None
+    item=None
+    pattern=None
+    df=pd.DataFrame(None,columns=['country','item','sub_item','amount'])
+    item_pattern=[
+        ['age-structure',  '<strong>(.+?)</strong>(.+?)(?:<br>|$)'], 
+        ['gdp-composition-by-end-use', '<strong>(.+?)</strong>(.+?)(?:<br>|$)'], 
+        ['gdp-official-exchange-rate', '</h3>(.+?)(?:<br>|$)']
+    ]
 
     def query_DOM(self):
         for country in self.countries:
